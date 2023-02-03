@@ -7,7 +7,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.compose import make_column_selector as selector
 import pandas as pd
 
-ames_housing = pd.read_csv("../datasets/ames_housing_no_missing.csv")
+ames_housing = pd.read_csv("../datasets/AmesHousing.csv")
 
 target_name = "SalePrice"
 
